@@ -1,0 +1,52 @@
+@use "../../styles/base/settings";
+@use "../../styles/base/mixin" as mixin;
+
+.searchBarContainer {
+  width: 30%;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  border: 2px solid #d3d3d3;
+  border-radius: 10px;
+  padding: 0 1%;
+
+  input {
+    width: 30%;
+    border: none;
+    padding: 8px;
+    outline: none;
+    flex-grow: 1;
+    font-size: 16px;
+    border-radius: 8px;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .searchIcon {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: var(--grey);
+    margin-top: 0;
+
+    &:hover {
+      color: #555;
+    }
+  }
+  &:focus-within {
+    border-color: var(--color-button);
+  }
+
+  @include mixin.respond-to(tablet) {
+    .searchBarContainer {
+      width: 60%;
+    }
+  }
+
+  @include mixin.respond-to(desktop) {
+    .searchBarContainer {
+      width: 70%;
+    }
+  }
+}

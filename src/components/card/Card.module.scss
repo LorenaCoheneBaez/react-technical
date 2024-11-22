@@ -1,0 +1,76 @@
+@use "../../styles/base/settings";
+@use "../../styles/base/mixin" as mixin;
+
+.card {
+  width: 80%;
+  margin: 2% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: var(--white);
+  padding: 5%;
+
+  .cardImage {
+    width: 80%;
+    height: auto;
+  }
+
+  .cardContent {
+    margin: 4% auto;
+  }
+
+  .cardButton {
+    border-radius: 5%;
+    color: var(--white);
+    font-weight: 600;
+    position: relative;
+    border: 1px solid var(--color-button);
+    background-color: var(--color-button);
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .cardButton {
+    &::before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+      -webkit-transition: all 0.4s ease-out;
+      transition: all 0.4s ease-out;
+      z-index: -1;
+    }
+    &:hover {
+      -webkit-transition: all 0.4s ease-out;
+      transition: all 0.4s ease-out;
+      background-color: var(--color-hover);
+    }
+    &:hover::before {
+      width: 100%;
+      height: 100%;
+      background-color: var(--color-hover);
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      -webkit-transition: all 0.4s ease-out;
+      transition: all 0.4s ease-out;
+    }
+  }
+
+  @include mixin.respond-to(tablet) {
+    width: 60%;
+    .cardImage {
+      width: 70%;
+    }
+  }
+
+  @include mixin.respond-to(desktop) {
+    width: 40%;
+    .cardImage {
+      width: 60%;
+    }
+  }
+}

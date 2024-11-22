@@ -1,0 +1,15 @@
+:root {
+  --font-family: "Montserrat", sans-serif;
+  --font-small:400;
+  --font-big:700;
+  --color-font: #0a0b0b;
+  --background-color: #ebebeb;
+  --color-button: #3483fa;
+  --color-hover: #1259c3;
+  --white:#fff;
+  --grey:#888;
+  --dark-grey:#333;
+
+  $breakpoint-tablet: 768px;
+  $breakpoint-desktop: 1024px;
+}

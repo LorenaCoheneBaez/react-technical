@@ -1,0 +1,31 @@
+@use "../../styles/base/mixin" as mixin;
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffe600;
+  border-bottom: 1px solid #ddd;
+  padding: 4% 1%;
+
+  .logo {
+    width: 20%;
+    svg {
+      width: 50%;
+      height: auto;
+    }
+  }
+  @include mixin.respond-to(tablet) {
+    padding: 2%;
+    .logo {
+      width: 20%;
+    }
+  }
+
+  @include mixin.respond-to(desktop) {
+    .logo {
+      width: 10%;
+    }
+  }
+}

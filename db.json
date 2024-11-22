@@ -1,0 +1,243 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Producto 1",
+      "image": "tech_item.jpg",
+      "description": "Descripción del Producto 1",
+      "detail": {
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 1",
+        "price": 100,
+        "address": "Dirección 1"
+      },
+      "category": "Tecnología"
+    },
+    {
+      "id": 2,
+      "title": "Producto 2",
+      "image": "toy_item.jpg",
+      "description": "Descripción del Producto 2",
+      "detail": {
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 2",
+        "price": 650,
+        "address": "Dirección 2"
+      },
+      "category": "Juguetes"
+    },
+    {
+      "id": 3,
+      "title": "Producto 3",
+      "image": "tech_item.jpg",
+      "description": "Descripción del Producto 3",
+      "detail": {
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 3",
+        "price": 200,
+        "address": "Dirección 3"
+      },
+      "category": "Tecnología"
+    },
+    {
+      "id": 4,
+      "title": "Producto 4",
+      "image": "tech_item.jpg",
+      "description": "Descripción del Producto 4",
+      "detail": {
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 4",
+        "price": 250,
+        "address": "Dirección 4"
+      },
+      "category": "Tecnología"
+    },
+    {
+      "id": 5,
+      "title": "Producto 5",
+      "image": "tech_item.jpg",
+      "description": "Descripción del Producto 5",
+      "detail": {
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 5",
+        "price": 300,
+        "address": "Dirección 5"
+      },
+      "category": "Tecnología"
+    },
+    {
+      "id": 6,
+      "title": "Producto 6",
+      "image": "tech_item.jpg",
+      "description": "Descripción del Producto 6",
+      "detail": {
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 6",
+        "price": 350,
+        "address": "Dirección 6"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Producto 7",
+      "image": "tech_item.jpg",
+      "description": "Descripción del Producto 7",
+      "detail": {
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 7",
+        "price": 400,
+        "address": "Dirección 7"
+      },
+      "category": "Tecnología"
+    },
+    {
+      "id": 8,
+      "title": "Producto 8",
+      "image": "tech_item.jpg",
+      "description": "Descripción del Producto 8",
+      "detail": {
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 8",
+        "price": 450,
+        "address": "Dirección 8"
+      },
+      "category": "Tecnología"
+    },
+    {
+      "id": 9,
+      "title": "Producto 9",
+      "image": "tech_item.jpg",
+      "description": "Descripción del Producto 9",
+      "detail": {
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 9",
+        "price": 500,
+        "address": "Dirección 9"
+      },
+      "category": "Tecnología"
+    },
+    {
+      "id": 10,
+      "title": "Producto 10",
+      "image": "tech_item.jpg",
+      "description": "Descripción del Producto 10",
+      "detail": {
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 10",
+        "price": 550,
+        "address": "Dirección 10"
+      },
+      "category": "Tecnología"
+    },
+    {
+      "id": 11,
+      "title": "Producto 11",
+      "image": "tech_item.jpg",
+      "description": "Descripción del Producto 11",
+      "detail": {
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 11",
+        "price": 600,
+        "address": "Dirección 11"
+      },
+      "category": "Tecnología"
+    },
+    {
+      "id": 12,
+      "title": "Producto 12",
+      "image": "tech_item.jpg",
+      "description": "Descripción del Producto 12",
+      "detail": {
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 12",
+        "price": 650,
+        "address": "Dirección 12"
+      },
+      "category": "Tecnología"
+    },
+    {
+      "id": 13,
+      "title": "Producto 13",
+      "image": "tech_item.jpg",
+      "description": "Descripción del Producto 13",
+      "detail": {
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 13",
+        "price": 650,
+        "address": "Dirección 13"
+      },
+      "category": "Tecnología"
+    },
+    {
+      "id": 14,
+      "title": "Producto 14",
+      "image": "tech_item.jpg",
+      "description": "Descripción del Producto 14",
+      "detail": {
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 14",
+        "price": 650,
+        "address": "Dirección 14"
+      },
+      "category": "Tecnología"
+    },
+    {
+      "id": 15,
+      "title": "Producto 15",
+      "image": "tech_item.jpg",
+      "description": "Descripción del Producto 15",
+      "detail": {
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 15",
+        "price": 650,
+        "address": "Dirección 15"
+      },
+      "category": "Tecnología"
+    },
+    {
+      "id": 16,
+      "title": "Producto 16",
+      "image": "tech_item.jpg",
+      "description": "Descripción del Producto 16",
+      "detail": {
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 16",
+        "price": 650,
+        "address": "Dirección 16"
+      },
+      "category": "Tecnología"
+    },
+    {
+      "id": 17,
+      "title": "Producto 17",
+      "image": "toy_item.jpg",
+      "description": "Descripción del Producto 17",
+      "detail": {
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 17",
+        "price": 650,
+        "address": "Dirección 17"
+      },
+      "category": "Juguetes"
+    },
+    {
+      "id": 18,
+      "title": "Producto 18",
+      "image": "toy_item.jpg",
+      "description": "Descripción del Producto 18",
+      "detail": {
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 18",
+        "price": 650,
+        "address": "Dirección 18"
+      },
+      "category": "Juguetes"
+    },
+    {
+      "id": 19,
+      "title": "Producto 19",
+      "image": "toy_item.jpg",
+      "description": "Descripción del Producto 19",
+      "detail": {
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 19",
+        "price": 650,
+        "address": "Dirección 19"
+      },
+      "category": "Juguetes"
+    },
+    {
+      "id": 20,
+      "title": "Producto 20",
+      "image": "toy_item.jpg",
+      "description": "Descripción del Producto 20",
+      "detail": {
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 20",
+        "price": 650,
+        "address": "Dirección 20"
+      },
+      "category": "Juguetes"
+    }
+  ]
+}

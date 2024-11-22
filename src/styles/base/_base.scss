@@ -1,0 +1,47 @@
+@use "../../styles/base/mixin" as mixin;
+@use "./settings";
+
+* {
+  @include mixin.reset-pm();
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  list-style: none;
+}
+
+.App {
+  background-color: var(--background-color);
+  padding-bottom: 5%;
+  @include mixin.respond-to(desktop) {
+    #main {
+      padding: initial;
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button {
+  font-family: var(--font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: var(--font-big);
+  line-height: 1.2;
+  margin: 0 0 1rem 0;
+}
+
+p {
+  font-size: var(--font-small);
+  line-height: 1.5;
+  margin: 0 0 1rem 0;
+}

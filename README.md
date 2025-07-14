@@ -67,8 +67,8 @@ Implementar un componente que permita filtrar las cards por algún criterio de b
 1. **Clonar el repositorio**:
    Clona el proyecto en tu máquina local si no lo has hecho aún:
    ```bash
-   git clone <url_del_repositorio>
-   cd <nombre_de_carpeta_del_frontend>
+   git clone [<url_del_repositorio>](https://github.com/LorenaCoheneBaez/react-technical.test)
+   cd <react-technical.test>
    ```
    2. **instalar dependencias**:
    ```bash

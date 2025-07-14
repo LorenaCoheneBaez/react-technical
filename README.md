@@ -80,7 +80,7 @@ Implementar un componente que permita filtrar las cards por algún criterio de b
    ```
    3. **Levantar servidor vite**:
    ```bash
-   npm run npm run dev
+   npm run dev
    ```
 
 ## Consideraciones:

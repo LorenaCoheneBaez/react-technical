@@ -62,7 +62,7 @@ Implementar un componente que permita filtrar las cards por algún criterio de b
 ### Requisitos previos:
 - Es necesario tener instalado **Node.js** y **npm**. Si no los tienes, puedes descargar Node.js desde [aquí](https://nodejs.org/).
 
-### Instrucciones:
+### ¿Cómo instalar el proyecto?:
 
 1. **Clonar el repositorio**:
    Clona el proyecto en tu máquina local si no lo has hecho aún:

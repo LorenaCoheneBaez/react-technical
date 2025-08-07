@@ -1,4 +1,4 @@
-# React technical test
+# React technical
 
 ## Tabla de contenidos:
 
@@ -25,7 +25,7 @@ Implementar una card que tiene que contar con los siguientes elementos:
 
 Implementar un componente que permita filtrar las cards por algún criterio de búsqueda (title por ejemplo), el mismo debería estar ubicado al top de la página
 
-#### Criterios de Aceptación 
+#### Criterios
 - La aplicación debe ser implementada usando React, apoyándose en todas las herramientas, hooks y demás utilidades ofrecidas por la librería. 
 - El scaffolding de la aplicación se puede hacer usando alguna de las herramientas soportadas por la comunidad, react create app o vite. 
 - Los estilos deben estar implementados en CSS estándar. Se permite el uso de preprocesadores como Sass si lo prefieres, pero no está permitido el uso de frameworks como Tailwind o Bootstrap.
